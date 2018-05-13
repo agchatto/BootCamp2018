@@ -15,15 +15,13 @@ public class BrowserInitialize {
 		String BR=rb.getString("Browser");
 		if(BR.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\md954105\\Desktop\\chromedriver.exe");
-			driver=new ChromeDriver();
+			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
 		
 		else
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\md954105\\Desktop\\chromedriver.exe");
-			driver=new ChromeDriver();
+			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
 		driver.get(rb.getString("url"));

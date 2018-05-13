@@ -38,7 +38,7 @@ public class Login2Step {
 	@Then("^Admin will Land in Adminhome Page$")
 	public void admin_will_Land_in_Adminhome_Page() throws Throwable {
 		
-		Assert.assertEquals(driver.getCurrentUrl(),"http://opensource.dem.orangehrmlive.com/index.php/dashboard");
+		Assert.assertEquals(driver.getCurrentUrl(),"http://opensource.demo.orangehrmlive.com/index.php/dashboard");
 	    driver.close();
 		
 	    
